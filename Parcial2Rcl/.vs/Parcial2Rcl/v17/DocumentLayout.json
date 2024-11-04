@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hp\\Documents\\UNIVERSIDAD\\parcial 457 actual\\Parcial2Rcl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1ABAC9C4-5718-47D7-AAE2-42D8DF325C99}|CpParcial2Rcl\\CpParcial2Rcl.csproj|C:\\Users\\Hp\\Documents\\UNIVERSIDAD\\parcial 457 actual\\Parcial2Rcl\\cpparcial2rcl\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ABAC9C4-5718-47D7-AAE2-42D8DF325C99}|CpParcial2Rcl\\CpParcial2Rcl.csproj|solutionrelative:cpparcial2rcl\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ABAC9C4-5718-47D7-AAE2-42D8DF325C99}|CpParcial2Rcl\\CpParcial2Rcl.csproj|c:\\users\\hp\\documents\\universidad\\parcial 457 actual\\parcial2rcl\\cpparcial2rcl\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1ABAC9C4-5718-47D7-AAE2-42D8DF325C99}|CpParcial2Rcl\\CpParcial2Rcl.csproj|solutionrelative:cpparcial2rcl\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5086BD4-1B3A-4DB8-AF9D-B8C965433C33}|ClnParcial2Rcl\\ClnParcial2Rcl.csproj|C:\\Users\\Hp\\Documents\\UNIVERSIDAD\\parcial 457 actual\\Parcial2Rcl\\clnparcial2rcl\\seriecln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5086BD4-1B3A-4DB8-AF9D-B8C965433C33}|ClnParcial2Rcl\\ClnParcial2Rcl.csproj|solutionrelative:clnparcial2rcl\\seriecln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SerieCln.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\UNIVERSIDAD\\parcial 457 actual\\Parcial2Rcl\\ClnParcial2Rcl\\SerieCln.cs",
+              "RelativeDocumentMoniker": "ClnParcial2Rcl\\SerieCln.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\UNIVERSIDAD\\parcial 457 actual\\Parcial2Rcl\\ClnParcial2Rcl\\SerieCln.cs",
+              "RelativeToolTip": "ClnParcial2Rcl\\SerieCln.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:15:43.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmSerie.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\UNIVERSIDAD\\parcial 457 actual\\Parcial2Rcl\\CpParcial2Rcl\\FrmSerie.cs",
+              "RelativeDocumentMoniker": "CpParcial2Rcl\\FrmSerie.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\UNIVERSIDAD\\parcial 457 actual\\Parcial2Rcl\\CpParcial2Rcl\\FrmSerie.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpParcial2Rcl\\FrmSerie.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:50:28.07Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmSerie.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\UNIVERSIDAD\\parcial 457 actual\\Parcial2Rcl\\CpParcial2Rcl\\FrmSerie.cs",
+              "RelativeDocumentMoniker": "CpParcial2Rcl\\FrmSerie.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\UNIVERSIDAD\\parcial 457 actual\\Parcial2Rcl\\CpParcial2Rcl\\FrmSerie.cs",
+              "RelativeToolTip": "CpParcial2Rcl\\FrmSerie.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAADwv58AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:47:28.929Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

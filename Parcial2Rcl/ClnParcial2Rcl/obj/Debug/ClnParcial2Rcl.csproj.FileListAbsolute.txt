@@ -1,0 +1,15 @@
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\bin\Debug\ClnParcial2Rcl.dll.config
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\bin\Debug\ClnParcial2Rcl.dll
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\bin\Debug\ClnParcial2Rcl.pdb
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\bin\Debug\CadParcial2Rcl.dll
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\bin\Debug\EntityFramework.dll
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\bin\Debug\CadParcial2Rcl.pdb
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\bin\Debug\CadParcial2Rcl.dll.config
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\bin\Debug\EntityFramework.xml
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\obj\Debug\ClnParcial2Rcl.csproj.AssemblyReference.cache
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\obj\Debug\ClnParcial2Rcl.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\obj\Debug\ClnParci.BE4486CE.Up2Date
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\obj\Debug\ClnParcial2Rcl.dll
+C:\Users\Hp\Documents\UNIVERSIDAD\parcial 457 actual\Parcial2Rcl\ClnParcial2Rcl\obj\Debug\ClnParcial2Rcl.pdb
