@@ -13,6 +13,7 @@
           <Property Name="titulo" Type="varchar" MaxLength="250" Nullable="false" />
           <Property Name="sinopsis" Type="varchar" MaxLength="5000" Nullable="false" />
           <Property Name="director" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="tipoClasificacion" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="episodios" Type="int" Nullable="false" />
           <Property Name="fechaEstreno" Type="datetime" Nullable="false" />
           <Property Name="estado" Type="smallint" Nullable="false" />
@@ -36,12 +37,13 @@
           <Property Name="titulo" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="sinopsis" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="director" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="tipoClasificacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="episodios" Type="Int32" Nullable="false" />
           <Property Name="fechaEstreno" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="estado" Type="Int16" Nullable="false" />
         </EntityType>
-        <EntityContainer Name="Parcial2RclEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Series" EntityType="Self.Serie" />
+        <EntityContainer Name="Parcial2RclEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Serie" EntityType="Self.Serie" />
           <FunctionImport Name="paSerieListar" ReturnType="Collection(Parcial2RclModel.paSerieListar_Result)">
             <Parameter Name="parametro" Mode="In" Type="String" />
           </FunctionImport>
@@ -51,6 +53,7 @@
           <Property Type="String" Name="titulo" Nullable="false" MaxLength="250" />
           <Property Type="String" Name="sinopsis" Nullable="false" MaxLength="5000" />
           <Property Type="String" Name="director" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="tipoClasificacion" Nullable="false" MaxLength="100" />
           <Property Type="Int32" Name="episodios" Nullable="false" />
           <Property Type="DateTime" Name="fechaEstreno" Nullable="false" Precision="23" />
           <Property Type="Int16" Name="estado" Nullable="false" />
@@ -60,14 +63,15 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Parcial2RclModelStoreContainer" CdmEntityContainer="Parcial2RclEntities">
-          <EntitySetMapping Name="Series">
+        <EntityContainerMapping StorageEntityContainer="Parcial2RclModelStoreContainer" CdmEntityContainer="Parcial2RclEntities1">
+          <EntitySetMapping Name="Serie">
             <EntityTypeMapping TypeName="Parcial2RclModel.Serie">
               <MappingFragment StoreEntitySet="Serie">
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="titulo" ColumnName="titulo" />
                 <ScalarProperty Name="sinopsis" ColumnName="sinopsis" />
                 <ScalarProperty Name="director" ColumnName="director" />
+                <ScalarProperty Name="tipoClasificacion" ColumnName="tipoClasificacion" />
                 <ScalarProperty Name="episodios" ColumnName="episodios" />
                 <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
                 <ScalarProperty Name="estado" ColumnName="estado" />
@@ -81,6 +85,7 @@
                 <ScalarProperty Name="titulo" ColumnName="titulo" />
                 <ScalarProperty Name="sinopsis" ColumnName="sinopsis" />
                 <ScalarProperty Name="director" ColumnName="director" />
+                <ScalarProperty Name="tipoClasificacion" ColumnName="tipoClasificacion" />
                 <ScalarProperty Name="episodios" ColumnName="episodios" />
                 <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
                 <ScalarProperty Name="estado" ColumnName="estado" />
@@ -101,7 +106,7 @@
     <Options>
       <DesignerInfoPropertySet>
         <DesignerProperty Name="ValidateOnBuild" Value="true" />
-        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="false" />
         <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />

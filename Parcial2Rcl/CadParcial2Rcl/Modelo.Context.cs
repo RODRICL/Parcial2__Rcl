@@ -15,10 +15,10 @@ namespace CadParcial2Rcl
     using System.Data.Entity.Core.Objects;
     using System.Linq;
     
-    public partial class Parcial2RclEntities : DbContext
+    public partial class Parcial2RclEntities1 : DbContext
     {
-        public Parcial2RclEntities()
-            : base("name=Parcial2RclEntities")
+        public Parcial2RclEntities1()
+            : base("name=Parcial2RclEntities1")
         {
         }
     
@@ -27,7 +27,7 @@ namespace CadParcial2Rcl
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Serie> Series { get; set; }
+        public virtual DbSet<Serie> Serie { get; set; }
     
         public virtual ObjectResult<paSerieListar_Result> paSerieListar(string parametro)
         {

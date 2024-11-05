@@ -17,6 +17,7 @@ namespace CadParcial2Rcl
         public string titulo { get; set; }
         public string sinopsis { get; set; }
         public string director { get; set; }
+        public string tipoClasificacion { get; set; }
         public int episodios { get; set; }
         public System.DateTime fechaEstreno { get; set; }
         public short estado { get; set; }

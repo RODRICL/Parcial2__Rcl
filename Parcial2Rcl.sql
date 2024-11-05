@@ -23,6 +23,7 @@ CREATE TABLE Serie (
   titulo VARCHAR(250) NOT NULL,
   sinopsis VARCHAR(5000) NOT NULL,
   director VARCHAR(100) NOT NULL,
+  tipoClasificacion VARCHAR(100) NOT NULL,
   episodios INT NOT NULL,
   fechaEstreno DATETIME NOT NULL DEFAULT GETDATE(),
   estado SMALLINT NOT NULL DEFAULT 1 -- -1: Eliminado, 0: Inactivo, 1: Activo
@@ -41,10 +42,10 @@ GO
 EXEC paSerieListar 'LOS SIMPSONS';
 GO
 -- DML
-INSERT INTO Serie (titulo, sinopsis, director, episodios, fechaEstreno)
-VALUES ('LOS SIMPSONS', 'SERIEA ANIMADA','CARLOS VILLAGRAM', 154, '2002-01-09');
+INSERT INTO Serie (titulo, sinopsis, director, tipoClasificacion, episodios, fechaEstreno)
+VALUES ('LOS SIMPSONS', 'SERIEA ANIMADA','CARLOS VILLAGRAM','tipo a', 154, '2002-01-09');
 
-INSERT INTO Serie (titulo, sinopsis, director, episodios, fechaEstreno)
-VALUES ('DRAGON BALL', 'SERIA PELEAS', 'AKIROMA', 279, '2008-09-11');
+INSERT INTO Serie (titulo, sinopsis, director, tipoClasificacion, episodios, fechaEstreno)
+VALUES ('DRAGON BALL', 'SERIA PELEAS', 'AKIROMA','tipo b', 279, '2008-09-11');
 
 SELECT * FROM Serie WHERE estado<>-1;

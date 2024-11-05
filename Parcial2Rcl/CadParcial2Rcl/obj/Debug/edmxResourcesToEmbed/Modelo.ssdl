@@ -8,6 +8,7 @@
     <Property Name="titulo" Type="varchar" MaxLength="250" Nullable="false" />
     <Property Name="sinopsis" Type="varchar" MaxLength="5000" Nullable="false" />
     <Property Name="director" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="tipoClasificacion" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="episodios" Type="int" Nullable="false" />
     <Property Name="fechaEstreno" Type="datetime" Nullable="false" />
     <Property Name="estado" Type="smallint" Nullable="false" />

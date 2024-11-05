@@ -30,6 +30,7 @@ namespace CpParcial2Rcl
                 s.titulo,
                 s.sinopsis,
                 s.director,
+                s.tipoClasificacion,
                 s.episodios,
                 s.fechaEstreno
             }).ToList();
@@ -73,6 +74,7 @@ namespace CpParcial2Rcl
             txtTitulo.Text = serie.titulo;
             txtSinopsis.Text = serie.sinopsis;
             txtDirector.Text = serie.director;
+            cbxtipoClasificacion.Text = serie.tipoClasificacion;
             nudEpisodio.Value = Math.Min(serie.episodios, nudEpisodio.Maximum);
             dtpFechaEstreno.Value = serie.fechaEstreno;
             txtTitulo.Focus();
@@ -90,6 +92,7 @@ namespace CpParcial2Rcl
             erpTitulo.SetError(txtTitulo, "");
             erpSinopsis.SetError(txtSinopsis, "");
             erpDirector.SetError(txtDirector, "");
+            erpEpisodio.SetError(cbxtipoClasificacion, "");
             erpEpisodio.SetError(nudEpisodio, "");
             erpFechaEstreno.SetError(dtpFechaEstreno, "");
 
@@ -125,6 +128,7 @@ namespace CpParcial2Rcl
                 serie.titulo = txtTitulo.Text.Trim();
                 serie.sinopsis = txtSinopsis.Text.Trim();
                 serie.director = txtDirector.Text.Trim();
+                serie.tipoClasificacion = cbxtipoClasificacion.Text.Trim();
                 serie.episodios = (int)nudEpisodio.Value;
                 serie.fechaEstreno = dtpFechaEstreno.Value;
 

@@ -11,9 +11,9 @@ namespace ClnParcial2Rcl
     {
         public static int insertar(Serie serie)
         {
-            using (var context = new Parcial2RclEntities())
+            using (var context = new Parcial2RclEntities1())
             {
-                context.Series.Add(serie);
+                context.Serie.Add(serie);
                 context.SaveChanges();
                 return serie.id;
             }
@@ -21,12 +21,13 @@ namespace ClnParcial2Rcl
 
         public static int actualizar(Serie serie)
         {
-            using (var context = new Parcial2RclEntities())
+            using (var context = new Parcial2RclEntities1())
             {
-                var existente = context.Series.Find(serie.id);
+                var existente = context.Serie.Find(serie.id);
                 existente.titulo = serie.titulo;
                 existente.sinopsis = serie.sinopsis;
                 existente.director = serie.director;
+                existente.tipoClasificacion = serie.tipoClasificacion;
                 existente.episodios = serie.episodios;
                 existente.fechaEstreno = serie.fechaEstreno;
                 return context.SaveChanges();
@@ -35,9 +36,9 @@ namespace ClnParcial2Rcl
 
         public static int eliminar(int id)
         {
-            using (var context = new Parcial2RclEntities())
+            using (var context = new Parcial2RclEntities1())
             {
-                var serie = context.Series.Find(id);
+                var serie = context.Serie.Find(id);
                 serie.estado = -1;
                 return context.SaveChanges();
             }
@@ -45,23 +46,23 @@ namespace ClnParcial2Rcl
 
         public static Serie obtenerUno(int id)
         {
-            using (var context = new Parcial2RclEntities())
+            using (var context = new Parcial2RclEntities1())
             {
-                return context.Series.Find(id);
+                return context.Serie.Find(id);
             }
         }
 
         public static List<Serie> listar()
         {
-            using (var context = new Parcial2RclEntities())
+            using (var context = new Parcial2RclEntities1())
             {
-                return context.Series.Where(x => x.estado != -1).ToList();
+                return context.Serie.Where(x => x.estado != -1).ToList();
             }
         }
 
         public static List<paSerieListar_Result> listarPa(string parametro)
         {
-            using (var context = new Parcial2RclEntities())
+            using (var context = new Parcial2RclEntities1())
             {
                 return context.paSerieListar(parametro).ToList();
             }
